@@ -7,7 +7,7 @@
 .image-container {
     height: 100vh;
     width: 50%;
-    background-image: url("https://img.freepik.com/premium-photo/green-moss-rotting-tree-trunk-forest_1048944-30372317.jpg?t=st=1721112096~exp=1721112696~hmac=cc210da57abc9702b9b08ae611a829b933a52be99d1a648323cc7eeac267f8d7");
+    background-image: url("https://img.freepik.com/free-photo/sign-up-form-button-graphic-concept_53876-123684.jpg?ga=GA1.1.1041120550.1692680325&semt=ais_user");
     background-size: cover;
 }
 
@@ -62,9 +62,66 @@
 @media screen and (max-width: 767px) {
     .details-container {
         width: 100%;
+        margin-top: 15px;
+    }
+    .form-container {
+        width: 95%;
     }
 }
 
 .register-heading {
     text-align: center;
+}
+.alignment-container {
+    margin-left: 20px;
+    margin-right: 20px;
+    height: 80vh;
+    display: flex;
+    flex-direction: column; 
+}
+
+.label-styling {
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.input-field-box {
+    height: 20px;
+    width: 400px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    outline: none;
+}
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    .input-field-box {
+        width: 300px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .input-field-box {
+        width: 300px;
+    }
+}
+.sign-in-button {
+    height: 30px;
+    width: 200px;
+    border-radius: 15px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background-color: skyblue;
+    color: black
+}
+
+.have-an-account-para {
+    margin-top: 15px;
+}
+.log-in-text {
+    color: blue;
 }

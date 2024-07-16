@@ -1,0 +1,13 @@
+.image-container-for-login {
+    height: 100vh;
+    width: 50%;
+    background-image: url("https://img.freepik.com/premium-photo/guardian-digital-realm-mans-vigilance-login-gate_1134661-21407.jpg?w=740");
+    background-size: cover;
+}
+@media screen and (max-width: 767px) {
+    .image-container-for-login {
+        min-height: 50vh;
+        width: 100%;
+    }
+}
+
